@@ -19,7 +19,7 @@ def build_login_response(parent_id, parent_password, school_symbol):
             'password': parent_password,
             'semel': int(school_symbol),
             'username': parent_id,
-            'year': 2020}
+            'year': 2021}
     URL = 'https://web.mashov.info/api/login'
     PARAMS = {'accept': 'application/json, text/plain, */*',
               'accept-language': 'en-US,en;q=0.9,he;q=0.8',
